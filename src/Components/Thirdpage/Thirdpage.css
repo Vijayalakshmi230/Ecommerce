@@ -1,0 +1,26 @@
+.end {
+    width: 1957px;
+    float: left;
+    padding: 20px 0px;
+    background: #333;
+}
+
+.footer-parts {
+    width: 300px;
+    padding: 0px 50px;
+    float: left;
+}
+
+.footer-parts-h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 10px 0px;
+}
+
+.footer-parts-p {
+    color: #000;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFF;
+}

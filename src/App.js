@@ -9,28 +9,30 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <ul>
-          <li>
-            <Link to="/first">Home</Link>
-          </li>
-          <li>
-            <Link to="/second">Secondpage</Link>
-          </li>
-          <li>
-            <Link to="/third">Thirdpage</Link>
-          </li>
-          <li>
-            <Link to="/login">SingIn</Link>
-          </li>
-          
-        </ul>
+        <div className="list">
+          <ul>
+            <li>
+              <Link to="/first">Home</Link>
+            </li>
+            <li>
+              <Link to="/second">Shopping</Link>
+            </li>
+            <li>
+              <Link to="/third">About</Link>
+            </li>
+            <li>
+              <Link to="/login">SingIn</Link>
+            </li>
+
+          </ul>
+        </div>
         <Routes>
-          <Route exact path='/first' element={<Firstpage/>}></Route>
-          <Route exact path='/second' element={<Secondpage/>}></Route>
-          <Route exact path='/third' element={<Thirdpage/>}></Route>
-          <Route exact path='/login' element={<Loginpage/>}></Route>
-          
-         
+          <Route exact path='/first' element={<Firstpage />}></Route>
+          <Route exact path='/second' element={<Secondpage />}></Route>
+          <Route exact path='/third' element={<Thirdpage />}></Route>
+          <Route exact path='/login' element={<Loginpage />}></Route>
+
+
         </Routes>
       </div></Router>
 
