@@ -1,0 +1,20 @@
+.description{
+    margin: 6%;
+    margin-top: -2%;
+}
+.image h1 {
+    font-size: 350%;
+    width: 60%;
+    color:brown;
+}
+.image h2 {
+    font-size: 30px;
+    width: 52%;
+    color:coral;
+    float:right;
+    
+}
+.image{
+    float:left;
+    width:80%;
+}
