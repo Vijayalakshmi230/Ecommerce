@@ -1,3 +1,43 @@
+.Page {
+    background-color: darkgrey;
+}
+
+.pic1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.styled-text {
+    color: #333;
+   
+    font-size: 35px;
+   
+    font-family: Arial, sans-serif;
+   
+    font-weight: bold;
+    
+    margin-left: 10px;
+    
+}
+
+.pic2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.pic3 {
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+
+.pic4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
 .end {
     width: 1957px;
     float: left;

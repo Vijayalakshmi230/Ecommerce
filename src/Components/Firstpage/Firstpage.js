@@ -1,11 +1,11 @@
 import React from 'react'
 import './Firstpage.css';
 
-function Firstpage() {
+const Firstpage = () => {
     return (
         <div className="home-container">
+            <div className="background-image"></div>
             <div className="content">
-
                 <h1 className="title">Welcome to Flash</h1>
                 <p className="description">We review and sell a range of big and oversized luxury
                     watches that combine stunning looks with incredible values
@@ -17,6 +17,8 @@ function Firstpage() {
     );
 };
 
-
-
 export default Firstpage
+
+
+
+
